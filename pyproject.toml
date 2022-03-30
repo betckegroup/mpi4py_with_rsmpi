@@ -1,0 +1,17 @@
+[project]
+name = "mpi4py_with_rsmpi"
+version = "0.1.0"
+description = "A short example to demonstrate how to embed rsmpi within mpi4py"
+authors = [
+  {name = "Timo Betcke", email ="timo.betcke@gmail.com" }
+]
+readme = "README.md"
+python = ">=3.9"
+homepage = "https://github.com/betckegroup/mpi4py_with_rsmpi"
+repository = "https://github.com/betckegroup/mpi4py_with_rsmpi"
+documentation = "https://github.com/betckegroup/mpi4py_with_rsmpi"
+dependencies = ["cffi"]
+
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel", "maturin>=0.12"]
+build-backend = "maturin"

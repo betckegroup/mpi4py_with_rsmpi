@@ -10,7 +10,7 @@ python = ">=3.9"
 homepage = "https://github.com/betckegroup/mpi4py_with_rsmpi"
 repository = "https://github.com/betckegroup/mpi4py_with_rsmpi"
 documentation = "https://github.com/betckegroup/mpi4py_with_rsmpi"
-dependencies = ["cffi"]
+dependencies = ["cffi", "mpi4py"]
 
 [build-system]
 requires = ["setuptools>=40.8.0", "wheel", "maturin>=0.12"]
